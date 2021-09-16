@@ -1,4 +1,3 @@
-import 'whatwg-fetch'; // fetch polyfill needed for PhantomJs rendering
 import { Observable, of } from 'rxjs';
 import { delay } from 'rxjs/operators';
 import { AppEvents, DataQueryErrorType, EventBusExtended } from '@grafana/data';
